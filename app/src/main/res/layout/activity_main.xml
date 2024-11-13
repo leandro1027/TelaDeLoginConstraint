@@ -67,7 +67,7 @@
         android:text="@string/cadastre_se"
         android:textColor="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toEndOf="@id/textView2"
         app:layout_constraintTop_toBottomOf="@id/buttonLogin" />
 
@@ -77,9 +77,9 @@
         android:layout_marginTop="2dp"
         android:background="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.845"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4"/>
+        app:layout_constraintTop_toBottomOf="@id/textView4" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -96,7 +96,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/esqueceu_a_sua_senha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageView4"/>
