@@ -28,7 +28,7 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View) {
-        if (view.id == R.id.buttonLogin) {
+        if (view.id == R.id.buttonBemVindo) {
             Toast.makeText(this, "Parábens, você chegou nessa tela", Toast.LENGTH_SHORT).show()
         }
     }
